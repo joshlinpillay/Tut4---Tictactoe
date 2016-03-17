@@ -9,7 +9,9 @@ public:
 	void playGame();
 private:
 
-	
+	int getXCoord();
+	int getYCoord();
+
 	bool placeMarker(int x, int y, char currentPlayer);
 
 	bool checkForVictory(char currentPlayer);
